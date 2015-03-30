@@ -1,0 +1,3 @@
+# MOVING_TRAINGLE
+
+RUNLEFT, RIGHT, UP DOWN  and rotation is F1  Key 
