@@ -1,4 +1,4 @@
 #!/bin/bash
-        g++ ./triangle_move.cpp -lGL -lGLU -lglut -o triangle_move
+        g++ ./moving_triangle_original.cpp -lGL -lGLU -lglut -o triangle_move
 
 ./triangle_move
