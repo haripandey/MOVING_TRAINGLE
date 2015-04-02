@@ -1,4 +1,15 @@
-#!/bin/bash
-        g++ ./moving_triangle_original.cpp -lGL -lGLU -lglut -o triangle_move
+  # the compiler: gcc for C program, define as g++ for C++
+  CC = g++
 
-./triangle_move
+  # compiler flags:
+  #  -g    adds debugging information to the executable file
+  #  -lGL, -lGLU and -lglut are flags for Opengl library
+  CFLAGS  = -g -lGL -lGLU -lglut
+  # the build target executable:
+  TARGET = traingle
+
+  all: $(TARGET)
+
+  $(TARGET): $(TARGET).cpp;$(CC) $(TARGET).cpp $(CFLAGS) -o $(TARGET) ;
+
+  clean:;$(RM) $(TARGET)
