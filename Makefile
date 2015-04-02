@@ -6,7 +6,7 @@
   #  -lGL, -lGLU and -lglut are flags for Opengl library
   CFLAGS  = -g -lGL -lGLU -lglut
   # the build target executable:
-  TARGET = traingle
+  TARGET = triangle
 
   all: $(TARGET)
 
