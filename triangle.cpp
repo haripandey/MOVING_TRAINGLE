@@ -96,13 +96,15 @@ void text(void){
         glClearColor(0.25f,0.28f,0.01f,5.0);
 
 	glMatrixMode(GL_MODELVIEW);
+//        text();
         pm();
-        text();
         glLoadIdentity();
     	glPushMatrix();
     	glTranslatef( X, Y,Z);
     	glRotatef(theta, 0.0f, 0.0f, -16.0f);
     	traingle();
+         text();
+ 
         glPopMatrix();
          
 
